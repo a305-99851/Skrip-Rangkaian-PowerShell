@@ -1,4 +1,4 @@
-if (test-netconnection -uri 127.0.0.1) {
+if (test-netconnection 127.0.0.1) {
 echo "Host Reached"
 } else {
 echo "Host Down"
